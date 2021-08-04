@@ -1,0 +1,5 @@
+Add environmental variables
+    firebase functions:config:set googlesheet.item="value"
+
+Query environmental variables
+    firebase functions:config:get
