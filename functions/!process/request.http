@@ -1,0 +1,21 @@
+#post new url 
+POST https://firebase.sivir.pw/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "url": "https://microsoft.com"
+}
+
+### fetch exist url 
+GET https://us-central1-sivir-pw.cloudfunctions.net/redirect/q/7nnW9KH HTTP/1.1
+
+###post new url 
+POST https://us-central1-sivir-pw.cloudfunctions.net/redirect/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "url": "https://microsoft.com"
+}
+
+### fetch exist url 
+GET https://sivir-pw.web.app/app/q/7nnW9KH HTTP/1.1
